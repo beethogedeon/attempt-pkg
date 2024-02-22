@@ -1,3 +1,4 @@
+{% raw %}
 name: Python Publish Workflow
 on:
   workflow_call:
@@ -8,3 +9,6 @@ jobs:
     secrets:
       PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       TEST_PYPI_PASSWORD: ${{ secrets.TEST_PYPI_PASSWORD  }}
+
+
+{% endraw %}

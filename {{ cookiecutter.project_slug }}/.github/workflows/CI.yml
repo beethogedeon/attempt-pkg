@@ -1,3 +1,4 @@
+{% raw %}
 name: Python CI
 on:
   push:
@@ -19,3 +20,5 @@ jobs:
     secrets:
       PYPI_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       TEST_PYPI_PASSWORD: ${{ secrets.TEST_PYPI_PASSWORD  }}
+
+{% endraw %}
