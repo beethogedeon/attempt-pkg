@@ -1,0 +1,12 @@
+{
+    "project_name": "Python Package Template",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "pkg_name": "{{ cookiecutter.project_slug|replace('-', '_') }}",
+    "description": "",
+    "author": "unknow",
+    "author_slug": "{{ cookiecutter.author|lower|replace(' ', '-') }}",
+    "email": "{{ cookiecutter.author_slug }}@gmail.com",
+    "github_username": "{{ cookiecutter.author_slug }}",
+    "github_repository": "{{ cookiecutter.project_slug }}",
+    "linkedin": "{{ cookiecutter.author_slug }}"
+}
