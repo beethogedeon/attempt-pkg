@@ -59,7 +59,7 @@ pipx install cookiecutter
 sudo apt-get install cookiecutter
 ```
 
-#### Upgrading from `0.6.4` to `0.7.0` or greater
+#### Upgrading
 
 First, read [History](https://cookiecutter.readthedocs.io/en/latest/HISTORY.html) in detail. There are a lot of major changes. The big ones are:
 
